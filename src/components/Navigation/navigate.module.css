@@ -1,0 +1,33 @@
+ul {
+    padding-inline-start: 0px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.nav {
+    grid-area: n;
+    background-color: rgb(125, 209, 195);
+    padding: 20px;
+  }
+  .item a {
+    color: white;
+    text-decoration: none;
+  }
+  .item a.activeLink {
+    color: gold;
+  }
+
+.signin {
+  grid-area: n;
+  background-color: rgb(241, 138, 106);
+  padding: 20px;
+}
+.signitem a{
+  color: white;
+  text-decoration: none;
+}
+.signitem a.activeLink {
+  color: gold;
+}
